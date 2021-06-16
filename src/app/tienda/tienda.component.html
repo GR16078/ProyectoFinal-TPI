@@ -1,0 +1,15 @@
+<div class="jumbotron" style='text-align:center'>
+
+    <!-- Parte principal de la tienda -->
+    <img src="assets/logo.png" width="750" height="220">
+    <br>
+    <FONT COLOR="white" size=5 face="Franklin Gothic"><b>Todo en artículos y marcas reconocidas</b></FONT>
+    <br>
+    <br>
+
+    <!-- Abrir PDF en una nueva ventana con más información de la tienda -->
+    <a href="#" onclick="window.open('assets/informacionTIENDA.pdf')">MÁS INFORMACIÓN SOBRE NUESTRA TIENDA</a>
+    <br>
+    <br>
+</div>
+<app-tarjeta-producto [producto]="producto" *ngFor="let producto of productos" ></app-tarjeta-producto>
